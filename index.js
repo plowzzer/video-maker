@@ -5,8 +5,14 @@ const robots = {
 
 async function start() {
   const content = {}
+  //Just thinking on lang = en
+  content.lang = 'en'
+
+  //Adding a max sentenses number
+  content.maximumSentenses = 7
   content.searchTerm = askAndReturnSearchTerm()
   content.prefix = askAndReturnPrefix()
+
 
   await robots.text(content)
 
@@ -20,7 +26,7 @@ async function start() {
     return prefixes[selectedPrefixIndex]
   }
 
-  console.log(content)
+  console.log(JSON.stringify(content, null, 4))
 }
 
 start()
