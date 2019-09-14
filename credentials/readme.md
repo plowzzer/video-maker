@@ -19,3 +19,11 @@ File: `watson-nlu.json`
   "url": "https://gateway.watsonplatform.net/natural-language-understanding/api"
 }
 ```
+
+## Google Search Custom Search
+File: `google-search.json`
+
+```
+{
+  "apiKey": "AIzaSyCRBHnO4RVbiHmDagbf8XDEUoRNkabvkvE"
+}```
