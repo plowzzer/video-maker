@@ -62,3 +62,6 @@ typings/
 
 # File saved by the robots
 content.json
+
+# Folder content saved
+./content/*
